@@ -13,9 +13,6 @@ const [newPage] = await Promise.all
          context.waitForEvent("page"),
          page.locator("#newTabBtn").click(),
       //   page.pause()
-
-      
-
     ]
 )
 
